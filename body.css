@@ -1,0 +1,103 @@
+/* code CSS au niveau du tout le corps */
+.corps {
+  margin: 0px;
+  padding: 0px;
+  background-color: #b11313;
+}
+
+/* code CSS au niveau du menu */
+nav {
+  background-color: #b11313;
+  position: fixed;
+}
+nav > a {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(185, 213, 198);
+}
+
+ul > li > a {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul > li > a:hover {
+  color: whitesmoke;
+  border: rgb(90, 65, 18);
+  border-radius: 15px;
+  background-color: rgba(178, 59, 59, 0.651);
+}
+
+/* code CSS au niveau de l'image d'acceuil */
+.img-accueil {
+  background-image: url(illustration/img1.png);
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.text-typo {
+  position: relative;
+  top: 45vh;
+  left: 300px;
+}
+.text-typo > .text-FarFrom {
+  font-size: 100px;
+  color: whitesmoke;
+}
+.text-s {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.boutn-accueil {
+  position: relative;
+  top: 55vh;
+  left: 250px;
+}
+
+@font-face {
+  font-family: "Far From Homecoming";
+  src: url("Typo-FarFromHomecoming.woff2") format("woff2");
+}
+
+.text-typo > p {
+  font-family: "Far From Homecoming";
+}
+
+/* code CSS au niveau des blogs */
+.text-Far {
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.text-simple {
+  color: whitesmoke;
+  font-size: 14px;
+}
+.card-body {
+  background-color: #b11313;
+  border-color: #b11313;
+}
+
+.card-text {
+  color: whitesmoke;
+}
+
+.card-footer {
+  background-color: #b11313;
+}
+
+/* code CSS au niveau de devenir spidereman*/
+.Dspiderman {
+  background-color: #114c92;
+}
+.text-deveni {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.formul {
+  margin-left: 100px;
+}
